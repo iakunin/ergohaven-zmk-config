@@ -1,7 +1,7 @@
 ---
 include:
-  - board: ergohaven
-    shield: velvet_v3_ui_left
+#  - board: ergohaven
+#    shield: velvet_v3_ui_left
   - board: ergohaven
     shield: velvet_v3_ui_right
     keymap: velvet_v3_ui_ruen
