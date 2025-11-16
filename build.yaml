@@ -27,5 +27,5 @@ include:
 #    shield: velvet_v3_ui_right_qube
 
 
-  - board: ergohaven
-    shield: settings_reset
+#  - board: ergohaven
+#    shield: settings_reset
