@@ -37,35 +37,59 @@
             #binding-cells = <0>;
             mods = <(MOD_LCTL)>;
         };
-
     };
 
     combos {
         compatible = "zmk,combos";
 
-        sniper_layer {
+        sniper_layer_left {
             bindings = <&mo 8>;
             key-positions = <17 16>;
         };
 
-        scroll_layer {
+        scroll_layer_left {
             bindings = <&mo 7>;
             key-positions = <13 14>;
         };
 
-        mouse_left {
+        mouse_left_left {
             bindings = <&mkp MB1>;
             key-positions = <16 15>;
         };
 
-        mouse_right {
+        mouse_right_left {
             bindings = <&mkp MB2>;
             key-positions = <15 14>;
         };
 
-        mouse_middle {
+        mouse_middle_left {
             bindings = <&mkp MB3>;
             key-positions = <15 14 16>;
+        };
+
+        sniper_layer_right {
+            bindings = <&mo 8>;
+            key-positions = <18 19>;
+        };
+
+        scroll_layer_right {
+            bindings = <&mo 7>;
+            key-positions = <22 21>;
+        };
+
+        mouse_left_right {
+            bindings = <&mkp MB1>;
+            key-positions = <19 20>;
+        };
+
+        mouse_right_right {
+            bindings = <&mkp MB2>;
+            key-positions = <20 21>;
+        };
+
+        mouse_middle_right {
+            bindings = <&mkp MB3>;
+            key-positions = <19 20 21>;
         };
     };
 
