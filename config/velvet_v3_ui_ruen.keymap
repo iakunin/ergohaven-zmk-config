@@ -46,7 +46,34 @@
         };
     };
 
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        sniper_layer {
+            bindings = <&mo 8>;
+            key-positions = <17 16>;
+        };
+
+        scroll_layer {
+            bindings = <&mo 7>;
+            key-positions = <13 14>;
+        };
+
+        mouse_left {
+            bindings = <&mkp MB1>;
+            key-positions = <16 15>;
+        };
+
+        mouse_right {
+            bindings = <&mkp MB2>;
+            key-positions = <15 14>;
+        };
+
+        mouse_middle {
+            bindings = <&mkp MB3>;
+            key-positions = <15 14 16>;
+        };
+    };
 
     macros {
         to_ru: to_ru {
