@@ -20,14 +20,6 @@
             hold-while-undecided;
         };
 
-        mouse_layer: mouse_layer {
-            compatible = "zmk,behavior-sticky-key";
-            label = "MOUSE_LAYER";
-            bindings = <&mo>;
-            #binding-cells = <1>;
-            release-after-ms = <200>;
-        };
-
         en_space: en_space {
             compatible = "zmk,behavior-mod-morph";
             label = "EN_SPACE";
