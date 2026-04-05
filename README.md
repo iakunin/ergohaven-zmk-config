@@ -1,0 +1,2 @@
+- Дока по Qube: https://docs.ergohaven.xyz/wireless/qube/
+- Дока по Velvet v3: https://docs.ergohaven.xyz/wireless/velvet-ui/

@@ -12,5 +12,3 @@ include:
     artifact-name: velvet_v3_ui_qube_ruen-ergohaven-zmk
   - board: ergohaven
     shield: settings_reset
-
-# https://journey.ergohaven.xyz/pages/docs/qube/
